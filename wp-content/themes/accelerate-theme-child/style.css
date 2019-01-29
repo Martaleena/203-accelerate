@@ -40,4 +40,20 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+/*Case Study Page Styles*/
+
+.case-study-sidebar {
+	float: left;
+	width: 40%
+}
+.case-study-sidebar h4 {
+	color: #a3a3a3;
+}
+.case-study-sidebar h4 span {
+	color: #3b3b3b
+}
+.case-study-images {
+	float: left;
+	width: 60%
+}
 	
