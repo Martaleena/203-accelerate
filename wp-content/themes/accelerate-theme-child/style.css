@@ -10,11 +10,12 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 #masthead {
-  background: none repeat scroll 0 0 #45ac9d;
+  background: none repeat scroll 0 0 red;
 }
 .button {
     color: #fff;
@@ -27,12 +28,22 @@ Text Domain:  accelerate-theme-child
 }
 .blog-post h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    color: #a6a6a6;
+    color: red;
     text-transform: uppercase;
     margin: 2em 0 .5em;
 }
 .blog-post h3 {
 	font-size: 1.5em;
+}
+.featured-work h4 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	text-align: center;
+}
+.featured-work-example {
+	text-decoration: none;
+}
+.featured-work-example ul li {
+	float: left;
 }
 .read-more-link {
 	font-family: 'Montserrat';
@@ -42,15 +53,21 @@ Text Domain:  accelerate-theme-child
 }
 /*Case Study Page Styles*/
 
+
 .case-study-sidebar {
 	float: left;
 	width: 40%
 }
+.case-study-sidebar h2 {
+	font-size: 25pt;
+}
 .case-study-sidebar h4 {
 	color: #a3a3a3;
+	font-size: 14pt;
+	line-height: 26pt;
 }
 .case-study-sidebar h4 span {
-	color: #3b3b3b
+	color: #2b2b2b
 }
 .case-study-images {
 	float: left;
