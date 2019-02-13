@@ -17,7 +17,7 @@ get_header(); ?>
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>
-				<a class="button" href="<?php echo site_url('/blog/') ?>">View Our Work</a>
+				<a class="button" href="<?php echo site_url('/case-studies/') ?>">View Our Work</a>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
@@ -26,10 +26,10 @@ get_header(); ?>
 			<h4> Featured Work </h4>
 			
 				<ul class="hp-featured-work">
-				<?php query_posts('posts_per_page=3&post_type=case_studies&order=ASC'); ?>
+				<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
 					<?php while ( have_posts() ) : the_post();
 					$image_1 = get_field("image_1");
-					$size = "medium";
+					$size = "medium";			
 					?>
 					
 					<li class="featured-work-example">
