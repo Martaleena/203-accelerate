@@ -80,6 +80,64 @@ Text Domain:  accelerate-theme-child
 	float: left;
 	width: 60%
 }
+
+/*About Page Styles*/
+
+.about-content {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	height: 15em;
+    margin: 0 0 4em;
+    padding: 0 0 8em;
+	text-align: center;
+
+}
+.about-content h3 {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 20em 6em;
+}
+.about-services-content h4 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.about-services-content p {
+	text-align: center;
+}
+.about-services ul li {
+	list-style-type: none;
+	margin: 0 9em;
+}
+.about-services ul li:nth-child (odd) {
+	float: left;
+
+}
+.about-services ul li:nth-child (even) {
+	float: right;
+	clear: both;
+}
+
+.service-offering .about-img {
+	width: 32%;
+	display: inline-block;
+}
+.service-offering .about-text {
+	width: 64%;
+	display: inline-block;
+}
+#navigation .center {
+	margin-bottom: auto;
+}
+
+#navigation .center span {
+	padding-right: 2em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
 /*Case Study Archive Page Styles*/
 
 .case-study-archive-sidebar {
@@ -115,4 +173,37 @@ Text Domain:  accelerate-theme-child
 	height: 40px;
 	display: inline;
 	float: right;
+}
+
+/*Contact Page Styles*/
+
+.contact-us h2 {
+	margin: auto 4.5em;
+	padding-bottom: 1em;
+	font-size: 2em;
+}
+
+p.contact-us {
+	margin: auto 9em;
+	padding-bottom: 3em;
+}
+#nf-form-1-cont {
+	margin: auto 9em;
+}
+.ninja-forms-req-symbol, .nf-form-fields-required {
+	display: none;
+}
+
+#nf-field-1-container, #nf-field-2-container {
+	display: inline-block;
+	width: 48%;
+}
+#nf-field-2-container {
+	padding-left: 1.4em;
+}
+#nf-field-4-container {
+	float: right;
+}
+#nf-field-4.ninja-forms-field.nf-element {
+	background: #45ac9d;
 }
