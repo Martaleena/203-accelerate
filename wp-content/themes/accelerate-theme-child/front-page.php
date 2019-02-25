@@ -54,9 +54,14 @@ get_header(); ?>
 						<h3><?php the_title(); ?></h3>
 						<?php the_excerpt(); ?>
 					<?php endwhile; ?> 
-				<?php wp_reset_query(); ?>
-				
+				<?php wp_reset_query(); ?>	
 			</div>
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+			<div id="secondary" class="widget-area" role="complementary">
+			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			<a  href="https://twitter.com/forkmonkeyclub"><span id="twitter-follow">Follow Us &rsaquo; </span></a>
+			</div>
+			<?php endif; ?>
 		</div>
 	</section>
 

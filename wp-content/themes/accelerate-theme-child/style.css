@@ -22,19 +22,37 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
 }
 .blog-post {
-	width: 50%;
+	width: 48%;
 	float: left;
 	margin-bottom: 2em;
 }
-.blog-post h4 {
+.blog-post h4, #custom-twitter-feeds-widget-2 h3 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #d5d5d5;
     text-transform: uppercase;
-    margin: 2em 0 .5em;
+}
+.blog-post h4 {
+	margin: 2em 0 .5em;
+}
+#custom-twitter-feeds-widget-2 h3 {
+	margin: 2em 0 1em .5em;
 }
 .blog-post h3 {
 	font-size: 1.5em;
 }
+#custom-twitter-feeds-widget-2 {
+	width: 48%;
+	float: left;
+	margin-bottom: 2em;
+	margin-left: 1em;
+}
+#twitter-follow {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #45ac9d;
+    text-transform: uppercase;
+    margin: 2em 1.5em .5em;
+}
+
 .featured-work h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	text-align: center;
@@ -84,8 +102,8 @@ Text Domain:  accelerate-theme-child
 /*About Page Styles*/
 
 .about-content {
-    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-	height: 15em;
+    background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+	height: 21em;
     margin: 0 0 4em;
     padding: 0 0 8em;
 	text-align: center;
@@ -96,7 +114,11 @@ Text Domain:  accelerate-theme-child
     font-family: 'Open Sans';
     font-size: 1.4em;
     font-weight: normal;
-    margin: 0 20em 6em;
+    margin: 3em 20em;
+	padding: 1em auto;
+}
+.about-services-content {
+	margin: 1em 5em;
 }
 .about-services-content h4 {
 	text-transform: uppercase;
@@ -108,24 +130,32 @@ Text Domain:  accelerate-theme-child
 }
 .about-services ul li {
 	list-style-type: none;
-	margin: 0 9em;
+	margin: 0 10em;
 }
-.about-services ul li:nth-child (odd) {
+.about-services ul li:nth-child(odd) .about-img{
 	float: left;
+	padding-right: 2em;
 
 }
-.about-services ul li:nth-child (even) {
+.about-services ul li:nth-child(even) .about-img{
 	float: right;
-	clear: both;
+	padding-left: 2em;
 }
-
+.service-offering {
+	overflow: auto;
+}
 .service-offering .about-img {
 	width: 32%;
-	display: inline-block;
+	float: left;
 }
 .service-offering .about-text {
 	width: 64%;
-	display: inline-block;
+	float: left;
+} 
+.about-text p {
+	margin: .5em 0 .5em;
+	text-align: left;
+	font-size: 15px;
 }
 #navigation .center {
 	margin-bottom: auto;
@@ -174,6 +204,12 @@ Text Domain:  accelerate-theme-child
 	display: inline;
 	float: right;
 }
+/*MC Plugin Styles*/
+
+.mc4wp-form-fields #mc-button {
+	background: #45ac9d;
+	text-transform: uppercase;
+}
 
 /*Contact Page Styles*/
 
@@ -206,4 +242,26 @@ p.contact-us {
 }
 #nf-field-4.ninja-forms-field.nf-element {
 	background: #45ac9d;
+} 
+
+/*404 Page Styles*/
+
+
+.error-page h2 {
+	margin: 1em 9em;
+	color: #45ac9d;
+	font-weight: bold;
+	font-size: 3em;
+	font-family: 'Coiny', cursive;
+}
+.error-page h4 {
+	margin: 2em 10em;
+	font-family: 'Coiny', cursive;
+}
+.error-page img {
+	margin: 0 10em;
+}
+.error-page h4 span {
+	margin: .5em 0 .5em 15em;
+	padding-left: 10em;
 }
