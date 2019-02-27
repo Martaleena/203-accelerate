@@ -117,8 +117,9 @@ Text Domain:  accelerate-theme-child
     margin: 3em 20em;
 	padding: 1em auto;
 }
-.about-services-content {
-	margin: 1em 5em;
+.about-services {
+	max-width: 960px;
+	margin: 0 auto;
 }
 .about-services-content h4 {
 	text-transform: uppercase;
@@ -170,28 +171,37 @@ Text Domain:  accelerate-theme-child
 
 /*Case Study Archive Page Styles*/
 
+.case-study-archive {
+	margin: 3em auto 3em;
+}
+
 .case-study-archive-sidebar {
 	float: left;
-	width: 40%
+	padding-right: 1.25em;
+	padding-bottom: 2em;
+	width: 38%;
 }
 .case-study-archive-sidebar h2 {
-	font-size: 25pt;
+	font-size: 18pt;
 	margin: auto;
 }
 .case-study-archive-sidebar h4 {
 	color: #a3a3a3;
-	font-size: 14pt;
+	font-size: 12pt;
+	font-weight: normal;
 	margin: auto;
 }
 .case-study-archive-sidebar h4 span {
-	color: #2b2b2b
+	color: #2b2b2b;
 }
 .case-study-archive-sidebar p {
-	margin: auto;
+	margin-top: 2em;
 }
 .case-study-images {
 	float: left;
-	width: 60%
+	padding-left: 3.5em;
+	padding-bottom: 2em;
+	width: 58%;
 }
 /*Social Media Menu Styles*/
 
